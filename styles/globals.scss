@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins;
+  // background: #000 url(https://i.ibb.co/gtTbfBJ/cover.jpg) no-repeat center top;
+  background: #000 url(https://i.ibb.co/pZRNz5f/back.png) no-repeat center top;
+  background-size: 100% auto; 
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
