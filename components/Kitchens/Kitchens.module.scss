@@ -1,0 +1,61 @@
+.kitchens {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  div {
+    margin: 0 auto;
+    width: 1280px;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: no-repeat;
+    .name_back {
+      background: rgba(0, 0, 0, 0.72);
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      width: 1280px;
+      height: 247px;
+    }
+  }
+  .coffee_shop {
+    background: url(https://i.ibb.co/1Gjdsds/Group-19.png) no-repeat;
+    background-size: 100% auto;
+    // margin-left: 150px;
+  }
+  
+  .fast_food {
+    background: url(https://i.ibb.co/VCxpJWs/pexels-photo-2271107-1.png) no-repeat;
+    background-size: 100% auto;
+  }
+  
+  .turkey {
+    background: url(https://i.ibb.co/0ZNR6SM/Traditional-Turkish-cuisine-1.png) no-repeat;
+    background-size: 100% auto;
+  }
+  
+  .korean {
+    background: url(https://i.ibb.co/59hZ5t1/namesnack-korean-restaurant-business-names-6000x4000-20200916-1.png) no-repeat;
+    background-size: 100% auto;
+  }
+  
+  .kyrgyz {
+    background: url(https://i.ibb.co/ZKg9r4x/p-O-1.png) no-repeat;
+    background-size: 100% auto;
+  } 
+  
+  .sushi {
+    background: url(https://i.ibb.co/FX1WwP4/pexels-photo-4703909-1.png) no-repeat;
+    background-size: 100% auto;
+  }
+  
+  .indian {
+    background: url(https://i.ibb.co/HDGF4Qj/pexels-photo-958546-1.png) no-repeat;
+    background-size: 100% auto;
+  }
+  
+  .china {
+    background: url(https://i.ibb.co/gyKQbPq/Chinese-in-kolkata-top-image-1.png) no-repeat;
+    background-size: 100% auto;
+  }
+}
+

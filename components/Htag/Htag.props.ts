@@ -2,5 +2,5 @@ import { ReactNode } from "react";
 
 export interface HtagProps {
   children?: ReactNode
-  tag: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'logo_header_d' | 'logo_header_w' | 'logo_main'
+  tag: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'logo_header_d' | 'logo_header_w' | 'logo_main' | 'kitchen_name_w' | 'kitchen_name_d'
 }

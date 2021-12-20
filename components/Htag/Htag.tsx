@@ -24,6 +24,10 @@ export const Htag = ({children, tag}: HtagProps):JSX.Element => {
       return <h2 className={styles.logo_header_w}>Ration<span>.</span></h2>
     case "logo_main":
       return <h2 className={styles.logo_main}>Ration<span>.</span></h2>
+    case "kitchen_name_w":
+      return <h2 className={styles.kitchen_name_w}>{children}</h2>
+    case "kitchen_name_d":
+      return <h2 className={styles.kitchen_name_d}>{children}</h2>
     default:
       return <></>  
   } 

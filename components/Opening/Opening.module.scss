@@ -1,5 +1,5 @@
 .opening {
-  margin-top: 200px;
+  margin-top: 100px;
   display: flex;
   padding-left: 3.4rem;
   padding-bottom: 560px;
@@ -12,12 +12,15 @@
       writing-mode: vertical-rl;
       color: #fff;
       margin-bottom: 20px;
+      // width: ;
+      // font-size: 72px;
     }
     .mb_20 {
       margin-bottom: 20px;
     }
   }
   .opening_main {
+    width: 70%;
     margin: 0 auto;
     .opening_orange {
       color: #FFC178;
@@ -26,6 +29,7 @@
       display: flex;
       align-items: center;
       margin-bottom: 32px;
+      width: 500px;
       &::before {
         content: '';
         display: block;
@@ -43,8 +47,10 @@
       line-height: 100px;
     }
     span {
-      font-size: 88px;
+      font-size: 68px;
       color: white;
+      text-align: center;
+      width: 30%;
     }
     p { 
       margin: 0;
@@ -54,7 +60,10 @@
       align-items: center;
       justify-content: center;
       margin-top: 126px;
-      padding-right: 70px;
+      padding-right: 90px;
+      svg {
+        margin-left: 10px;
+      }
     }
   }
 }
