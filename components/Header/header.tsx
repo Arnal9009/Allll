@@ -3,15 +3,19 @@ import { Htag } from '../Htag/Htag'
 
 import styles from './header.module.scss'
 
+
+import Navbar from '../Navbar/Navbar'
+
+
 const Header = () => {
   return (
     <header className={styles.header}>
       <Htag tag='logo_header_d'></Htag>
       <ul>
-        <li><span className={styles.hover}>Information</span></li>
-        <li><span>Institution</span></li>
+        {/* <li><span className={styles.hover}></span></li> */}
+        <li><span className={styles.hover}>Places</span></li>
         <li><span>About us</span></li>
-        <li><span>Contacts</span></li>
+        <li><span>Log in</span></li>
       </ul>
       <div>
         <svg width="38" height="35" viewBox="0 0 38 35" fill="#fff" xmlns="http://www.w3.org/2000/svg">
@@ -19,9 +23,9 @@ const Header = () => {
         </svg>
         <input type="text" placeholder="search" />
       </div>
+      <Navbar />
     </header>
   )
 }
 
 export default Header
-

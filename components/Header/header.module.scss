@@ -8,11 +8,27 @@
   justify-content: space-between;
   align-items: center;
   font-family: Poppins;
+  @media all and (max-width: 466px) {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    // margin-top: 15px;
+    padding-top: 15px;
+  }
+  h2 {
+    @media all and (max-width: 1000px) {
+      font-size: 28px;
+    }
+  }
   ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
+    
+    @media all and (max-width: 1000px) {
+      display: none;
+    }
     li {
       margin-right: 74px;
       // font-size: 1rem;
@@ -21,6 +37,9 @@
         color: #fff;
         font-weight: 600;
         cursor: pointer;
+        @media all and (max-width: 1024px) {
+          font-size: .7rem;
+        }
         &:hover {
           transition: .3s ease-in-out;
           color: rgb(167, 167, 167);
@@ -59,5 +78,14 @@
         }
       }
     }
+    @media all and (max-width: 425px) {
+      display: none;
+    }
   }
+  // svg {
+  //   display: none;
+  //   @media all and (max-width: 1000px) {
+  //     display: block;
+  //   }
+  // }
 }
