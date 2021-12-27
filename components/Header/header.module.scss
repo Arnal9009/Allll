@@ -53,9 +53,12 @@
   div {
     display: flex;
     align-items: center;
-    svg {
+    .lupa {
       &:first-child {
         margin-right: 1rem;
+      }
+      @media all and (max-width: 425px) {
+        display: none;
       }
     }
     input {
@@ -77,15 +80,15 @@
           color: #414040;
         }
       }
-    }
-    @media all and (max-width: 425px) {
-      display: none;
+      @media all and (max-width: 425px) {
+        display: none;
+      }
     }
   }
-  // svg {
-  //   display: none;
-  //   @media all and (max-width: 1000px) {
-  //     display: block;
-  //   }
-  // }
+  svg {
+    display: none;
+    @media all and (max-width: 1000px) {
+      display: block;
+    }
+  }
 }
