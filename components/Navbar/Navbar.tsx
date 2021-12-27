@@ -10,10 +10,10 @@ const Navbar = () => {
   const [sideBar, seSideBar] = useState(false)
   return (
     <div className={styles.burger}>
-      <BiMenuAltRight fill='white' size={50} onClick={() => seSideBar(!sideBar)}>изменить</BiMenuAltRight>
+      <BiMenuAltRight fill='white' onClick={() => seSideBar(!sideBar)}>изменить</BiMenuAltRight>
       {
         sideBar ? <div className={styles.sideBar}>
-          <HiArrowNarrowRight fill='white' size={50} onClick={() => seSideBar(!sideBar)}/>
+          <HiArrowNarrowRight fill='white' onClick={() => seSideBar(!sideBar)}/>
           <ul>
             <li>Places</li>
             <li>About us</li>
@@ -27,3 +27,4 @@ const Navbar = () => {
 }
 
 export default Navbar
+// size={50}
