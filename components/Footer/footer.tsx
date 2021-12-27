@@ -15,14 +15,13 @@ const Footer = () => {
           Ration.
         </h2>
         <div>
-          <span>Ready to explore?</span>
           <button>Get started</button>
         </div>
       </div>
       <hr />
       <div className={styles.footer_midle}>
         <div>
-          <h2>Let's go on vacation, Make your day</h2>
+          <p>Your suggestions and notes</p>
           <div className={styles.footer_email}>
             <input type="text" placeholder="Email addres" />
             <button>
@@ -43,14 +42,12 @@ const Footer = () => {
           <td>
             <tr>About</tr>
             <tr>Our Story</tr>
-            <tr>Benefits</tr>
             <tr>Team</tr>
             <tr>Careers</tr>
           </td>
 
           <td>
             <tr>Help</tr>
-            <tr>FAQs</tr>
             <tr>Contact Us</tr>
           </td>
 
