@@ -24,6 +24,7 @@ const Opening = () => {
       <div className={styles.opening_main}>
         <span className={styles.opening_orange}>your opinion is important to us</span> 
         <h2 className={styles.opening_dicover}>Ration</h2>
+        <p className={styles.logoname}>Ration</p>
         <span>We will help you find the best place in the city</span>
         <p>
           Scroll down
