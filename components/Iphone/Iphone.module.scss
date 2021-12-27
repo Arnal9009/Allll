@@ -1,0 +1,122 @@
+.iphone {
+  display: flex;
+  margin: 0 4.7rem;
+  @media all and (max-width: 800px) {
+    margin: 0 2.5rem;
+  }
+  @media all and (max-width: 650px) {
+    margin: 200px 2.5rem;
+  }
+  @media all and (max-width: 425px) {
+    margin: 200px 1rem;
+  }
+  img {
+    height: 700px;
+    @media all and (max-width: 850px) {
+      height: 600px;
+    }
+    @media all and (max-width: 600px) {
+      height: 500px;
+    }
+    @media all and (max-width: 500px) {
+      height: 400px;
+    }
+    @media all and (max-width: 375px) {
+      height: 300px;
+    }
+  }
+  div {
+    margin-left: 50px;
+    @media all and (max-width: 700px) {
+      margin-left: 20px;
+    }
+    @media all and (max-width: 500px) {
+      margin-left: 10px;
+    }
+    p {
+      color: white;
+      font-size: 64px;
+      margin: 0;
+      margin-top: 100px;
+      @media all and (max-width: 1250px) {
+        font-size: 64px;
+      }
+      @media all and (max-width: 1100px) {
+        font-size: 56px;
+      }
+      @media all and (max-width: 700px) {
+        font-size: 40px;
+        margin-top: 50px;
+      }
+      @media all and (max-width: 650px) {
+        font-size: 30px;
+      }
+      @media all and (max-width: 500px) {
+        margin-top: 30px;
+      }
+      @media all and (max-width: 425px) {
+        font-size: 20px;
+      }
+    }
+  }
+  .icons {
+    margin-top: 100px;
+    width: 596px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0;
+    @media all and (max-width: 1100px) {
+      width: 500px;
+    }
+    @media all and (max-width: 1000px) {
+      width: 400px;
+    }
+    @media all and (max-width: 900px) {
+      width: 300px;
+    }
+    @media all and (max-width: 700px) {
+      width: 250px;
+    }
+    @media all and (max-width: 600px) {
+      width: 200px;
+    }
+    @media all and (max-width: 550px) {
+      width: 150px;
+    }
+    @media all and (max-width: 500px) {
+      margin-top: 100px;
+    }
+    @media all and (max-width: 425px) {
+      margin-top: 10px;
+      display: flex;
+      flex-direction: column;
+      
+    }
+    img {
+      cursor: pointer;
+      width: 150px;
+      height: 150px;
+      @media all and (max-width: 1000px) {
+        width: 150px;
+        height: 150px;
+      }
+      @media all and (max-width: 900px) {
+        width: 120px;
+        height: 120px;
+      }
+      @media all and (max-width: 700px) {
+        width: 100px;
+        height: 100px;
+      }
+      @media all and (max-width: 600px) {
+        width: 60px;
+        height: 60px;
+      }
+      @media all and (max-width: 425px) {
+        &:first-child {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}
